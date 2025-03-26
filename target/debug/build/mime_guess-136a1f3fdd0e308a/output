@@ -1,1 +1,0 @@
-cargo:rustc-env=MIME_TYPES_GENERATED_PATH=C:\Users\Administrator\Desktop\office-tools-rust\target\debug\build\mime_guess-136a1f3fdd0e308a\out\mime_types_generated.rs
