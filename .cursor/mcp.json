@@ -1,0 +1,61 @@
+{
+  "mcpServers": {
+
+
+    "fetch": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "C:\\Users\\Administrator\\scoop\\apps\\miniconda3\\current\\Scripts\\uv.exe",
+        "run",
+        "mcp-server-fetch"
+      ]
+    },
+
+
+
+
+     "filesystem": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "C:\\Users\\Administrator\\AppData\\Local\\fnm_multishells\\4952_1742437137185\\node.exe",
+        "C:\\Users\\Administrator\\AppData\\Local\\fnm_multishells\\4952_1742437137185\\node_modules\\@modelcontextprotocol\\server-filesystem\\dist\\index.js",
+        "C:\\Users\\Administrator\\Desktop\\office-tools-rust"
+      ],
+      "env": {}
+    },
+
+    
+  
+
+
+
+   "memory": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "C:\\Users\\Administrator\\AppData\\Local\\fnm_multishells\\4952_1742437137185\\node.exe",
+        "C:\\Users\\Administrator\\AppData\\Local\\fnm_multishells\\4952_1742437137185\\node_modules\\@modelcontextprotocol\\server-memory\\dist\\index.js"
+      ],
+      "env": {
+              "MEMORY_FILE_PATH": "C:\\Users\\Administrator\\Desktop\\office-tools-rust\\.cursor\\memory.json"
+      }
+    },
+
+
+   "sequential-thinking": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "C:\\Users\\Administrator\\AppData\\Local\\fnm_multishells\\4952_1742437137185\\node.exe",
+        "C:\\Users\\Administrator\\AppData\\Local\\fnm_multishells\\4952_1742437137185\\node_modules\\@modelcontextprotocol\\server-sequential-thinking\\dist\\index.js"
+       ],
+      "env": {}
+    }
+
+
+
+  }
+
+}
