@@ -41,7 +41,7 @@ async fn main() -> io::Result<()> {
             )
             .service(handlers::pages::index)
     })
-    .bind(("127.0.0.1", port))
+    .bind(("0.0.0.0", port))
     {
         Ok(server) => {
             log::info!("Server started successfully");
